@@ -1,0 +1,32 @@
+// MQ trigger
+// @import "compass/CSS3";
+@import "colores";
+
+@mixin small {
+  @media only screen and (max-width: 766px) {
+    @content;
+  }
+}
+
+header{
+  margin: .5em; 
+}
+
+footer{
+  background-color: $wetasphalt;
+  padding: 1em;
+}
+
+.mainmenu{
+  list-style: none;
+  margin-top: 1em;
+  ul{
+    li{
+      display: inline-block;
+      padding: .3em;
+      a{
+        color: $wetasphalt;
+      }
+    }
+  }
+}
