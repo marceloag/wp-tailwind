@@ -65,7 +65,7 @@
 	<meta name="DC.title" content="Project Name">
 	<meta name="DC.subject" content="What you're about.">
 	<meta name="DC.creator" content="Who made this site.">
-
+	<script src="<?php bloginfo('template_directory'); ?>/js/vendor/modernizr.js"></script>
 <!-- Stylesheets -->
 	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
 	<link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/_/img/apple-touch-icon.png">
