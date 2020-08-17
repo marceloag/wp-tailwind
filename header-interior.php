@@ -67,8 +67,6 @@
 	<meta name="DC.creator" content="Who made this site.">
 	<script src="<?php bloginfo('template_directory'); ?>/js/vendor/modernizr.js"></script>
 <!-- Stylesheets -->
-  <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/owl.carousel.min.css" />
-  <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/owl.theme.default.min.css" />
 	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
 	<link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/_/img/apple-touch-icon.png">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
@@ -88,38 +86,35 @@
 </head>
 <body>
 
-    <header>
-        <div class="row full collapse" id="orbit">
-            <div class="large-12 medium-12 small-12 columns contenedor_orbit">
+ <header>
+        <div class="row full collapse">
+            <div class="large-12 medium-12 small-12 columns">
+                <div id="menu_interior">
+                    <div class="large-12 medium-12 small-12 columns">
+                        <nav class="top-bar" data-topbar role="navigation">
+                            <ul class="title-area">
+                                <li class="name">
+                                    <h1><a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/logo_aike.png" alt=""></a>
+                                    </h1>
+                                </li>
 
-                <div class="texto text-center">
-                    <img src="<?php bloginfo('template_directory'); ?>/img/icon_aike.png" alt="" class="icon">
-                    <h1>descubre el mundo</h1>
-                    <h3>con AIKE TOURS</h3>
+                                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+                            </ul>
+
+                            <section class="top-bar-section">
+
+                              <?php wp_nav_menu( array('menu' => 'mainmenu','menu_class' => 'right', )); ?>
+                                <!-- <ul class="right">
+                                    <li><a href="index.html">Inicio</a></li>
+                                    <li><a href="nosotros.html">Nosotros</a></li>
+                                    <li><a href="blog.html">Nuestro Blog</a></li>
+                                    <li><a href="politica.html" class="activo">POLITICA DE CAMBIOS Y DEVOLUCIONES</a></li>
+                                </ul> -->
+
+                            </section>
+                        </nav>
+                    </div>
                 </div>
-
-                <div class="fondo">
-                    <img src="<?php bloginfo('template_directory'); ?>/img/fondo_slider_borde.png" alt="">
-                </div>
-
-
-                <ul class="example-orbit" data-orbit data-options="bullets:false;slide_number:false;animation:fade">
-
-                    <li>
-                        <img src="<?php bloginfo('template_directory'); ?>/img/slider_001.png" alt="slide 1" />
-                    </li>
-
-
-                    <li>
-                        <img src="<?php bloginfo('template_directory'); ?>/img/slider_002.png" alt="slide 2" />
-                    </li>
-
-
-                    <li>
-                        <img src="<?php bloginfo('template_directory'); ?>/img/slider_003.png" alt="slide 3" />
-                    </li>
-                </ul>
-
             </div>
         </div>
     </header>
