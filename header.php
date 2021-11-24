@@ -89,37 +89,37 @@
 <body>
 
     <header>
-        <div class="row full collapse" id="orbit">
-            <div class="large-12 medium-12 small-12 columns contenedor_orbit">
+        <div class="row full collapse">
+            <div class="large-12 medium-12 small-12 columns">
 
-                <div class="texto text-center">
-                    <img src="<?php bloginfo('template_directory'); ?>/img/icon_aike.png" alt="" class="icon">
-                    <h1>descubre el mundo</h1>
-                    <h3>con AIKE TOURS</h3>
+                <div id="menu">
+                    <nav class="top-bar" data-topbar role="navigation">
+                        <ul class="title-area">
+                            <li class="name">
+                                <h1><a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/logo_refugio.png" alt=""></a></h1>
+                            </li>
+
+                            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+                        </ul>
+
+                        <section class="top-bar-section">
+                            <!-- Right Nav Section -->
+                            <?php wp_nav_menu( array('menu' => 'productos','menu_class' => 'right', )); ?>
+                            <!-- <ul class="right">
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="nosotros.html">Nosotros</a></li>
+                                <li><a href="promociones.html">Promociones</a></li>
+                                <li class="activo"><a href="contacto.html">contacto</a></li>
+                            </ul> -->
+                        </section>
+                    </nav>
                 </div>
 
-                <div class="fondo">
-                    <img src="<?php bloginfo('template_directory'); ?>/img/fondo_slider_borde.png" alt="">
+                <span class="degradado"></span>
+
+                <div class="contenedor_img">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/slider_001.jpg" alt="">
                 </div>
-
-
-                <ul class="example-orbit" data-orbit data-options="bullets:false;slide_number:false;animation:fade">
-
-                    <li>
-                        <img src="<?php bloginfo('template_directory'); ?>/img/slider_001.png" alt="slide 1" />
-                    </li>
-
-
-                    <li>
-                        <img src="<?php bloginfo('template_directory'); ?>/img/slider_002.png" alt="slide 2" />
-                    </li>
-
-
-                    <li>
-                        <img src="<?php bloginfo('template_directory'); ?>/img/slider_003.png" alt="slide 3" />
-                    </li>
-                </ul>
-
             </div>
         </div>
     </header>
