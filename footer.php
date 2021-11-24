@@ -43,33 +43,26 @@
     <script src="<?php bloginfo('template_directory'); ?>/js/app.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/js/owl.carousel.min.js"></script>
     <script>
-        var owl = $('.owl-carousel');
-        owl.owlCarousel({
-            items: 4,
+        $('.owl-carousel').owlCarousel({
             loop: true,
-            margin: 10,
-            autoplay: true,
-            autoplayTimeout: 3000,
+            margin: 15,
+            nav: true,
             responsive: {
                 0: {
                     items: 1,
                     nav: true
                 },
                 600: {
-                    items: 2,
+                    items: 3,
                     nav: false
                 },
                 1000: {
-                    items: 3,
+                    items: 4,
                     nav: true,
                     loop: false
                 }
-            },
-        });
-        $('.play').on('click', function() {
-            owl.trigger('play.owl.autoplay', [3000])
+            }
         })
-
     </script>
 
 
