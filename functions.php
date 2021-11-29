@@ -43,6 +43,7 @@ automatic_feed_links();
 
     if ( function_exists( 'add_image_size' ) ) {
         add_image_size( 'slides', 1280, 400,true );
+        add_image_size( 'insidebig', 1300, 768,true );
     }
 
 // Custom Menu Places
