@@ -111,6 +111,16 @@
 
                 <div class="contenedor_img">
                       <ul class="homeorbit" data-orbit>
+                                <?php
+                                    $the_query = new WP_Query(array(
+                                      'post_type' => 'slides',
+                                      'showposts' => 3
+                                    ));
+                                ?>
+                        <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                          <li><?php the_post_thumbnail("insidebig");?></li>
+                        <?php endwhile; ?>
+                        <!-- end of the loop -->
                         <li>
                           <img src="<?php bloginfo('template_directory'); ?>/img/slider_001.jpg" alt="">
                         </li>
