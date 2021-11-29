@@ -5,7 +5,7 @@
             <div class="large-10 medium-11 small-12 columns large-centered medium-centered">
 
                 <div class="large-6 medium-6 small-12 columns contenedor_img">
-                    <img src="<?php bloginfo('template_directory'); ?>/img/img_nosotros.png" alt="">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/img_nosotros.jpg" alt="">
                 </div>
 
                 <div class="large-6 medium-6 small-12 columns">
