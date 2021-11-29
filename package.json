@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/marceloag/WP-FD5-Compass/issues"
   },
-  "homepage": "https://github.com/marceloag/WP-FD5-Compass#readme"
+  "homepage": "https://github.com/marceloag/WP-FD5-Compass#readme",
+  "dependencies": {
+    "prettier": "^2.4.1"
+  }
 }

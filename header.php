@@ -98,19 +98,11 @@
                             <li class="name">
                                 <h1><a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/logo_refugio.png" alt=""></a></h1>
                             </li>
-
                             <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
                         </ul>
-
                         <section class="top-bar-section">
                             <!-- Right Nav Section -->
                             <?php wp_nav_menu( array('menu' => 'productos','menu_class' => 'right', )); ?>
-                            <!-- <ul class="right">
-                                <li><a href="index.html">Inicio</a></li>
-                                <li><a href="nosotros.html">Nosotros</a></li>
-                                <li><a href="promociones.html">Promociones</a></li>
-                                <li class="activo"><a href="contacto.html">contacto</a></li>
-                            </ul> -->
                         </section>
                     </nav>
                 </div>
@@ -118,7 +110,11 @@
                 <span class="degradado"></span>
 
                 <div class="contenedor_img">
-                    <img src="<?php bloginfo('template_directory'); ?>/img/slider_001.jpg" alt="">
+                      <ul class="homeorbit" data-orbit>
+                        <li>
+                          <img src="<?php bloginfo('template_directory'); ?>/img/slider_001.jpg" alt="">
+                        </li>
+                      </ul>
                 </div>
             </div>
         </div>

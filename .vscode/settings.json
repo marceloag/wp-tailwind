@@ -1,0 +1,10 @@
+{
+  "folders": [],
+  "settings": {},
+  "[scss]": {
+    "editor.formatOnSave": true
+  },
+  "prettier.singleQuote": true,
+  "prettier.requireConfig": true,
+  "prettier.resolveGlobalModules": true
+}
