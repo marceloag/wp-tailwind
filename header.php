@@ -121,9 +121,6 @@
                           <li><?php the_post_thumbnail("insidebig");?></li>
                         <?php endwhile; ?>
                         <!-- end of the loop -->
-                        <li>
-                          <img src="<?php bloginfo('template_directory'); ?>/img/slider_001.jpg" alt="">
-                        </li>
                       </ul>
                 </div>
             </div>
