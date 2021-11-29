@@ -116,10 +116,8 @@ Template Name: Nosotros
                 <span class="degradado"></span>
 
                 <div class="contenedor_img">
-                        <li>
                           <?php the_post_thumbnail('insidebig');?>
                           <!-- <img src="<?php bloginfo('template_directory'); ?>/img/slider_001.jpg" alt=""> -->
-                        </li>
                 </div>
             </div>
         </div>
