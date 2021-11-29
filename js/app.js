@@ -4,5 +4,7 @@ $(document).foundation({
   orbit: {
     timer: false,
     slide_number: false,
+    animation: 'fade',
+    timer_speed: 2800,
   },
 });
