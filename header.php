@@ -88,41 +88,5 @@
 </head>
 <body>
 
-    <header>
-        <div class="row full collapse">
-            <div class="large-12 medium-12 small-12 columns">
-
-                <div id="menu">
-                    <nav class="top-bar" data-topbar role="navigation">
-                        <ul class="title-area">
-                            <li class="name">
-                                <h1><a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/logo_refugio.png" alt=""></a></h1>
-                            </li>
-                            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-                        </ul>
-                        <section class="top-bar-section">
-                            <!-- Right Nav Section -->
-                            <?php wp_nav_menu( array('menu' => 'productos','menu_class' => 'right', )); ?>
-                        </section>
-                    </nav>
-                </div>
-
-                <span class="degradado"></span>
-
-                <div class="contenedor_img">
-                      <ul class="homeorbit" data-orbit>
-                                <?php
-                                    $the_query = new WP_Query(array(
-                                      'post_type' => 'slides',
-                                      'showposts' => 3
-                                    ));
-                                ?>
-                        <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-                          <li><?php the_post_thumbnail("insidebig");?></li>
-                        <?php endwhile; ?>
-                        <!-- end of the loop -->
-                      </ul>
-                </div>
-            </div>
-        </div>
+    <header>  
     </header>
