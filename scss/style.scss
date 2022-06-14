@@ -1,5 +1,5 @@
 /*!
-Theme Name: Starter Theme Croop
+Theme Name: Starter Theme Croop 2022
 Theme URI: http://www.croop.cl
 Description: Wordpress Foundation and Compass base theme.
 Author: Marcelo Aguila & Nelson Sanchez
@@ -7,8 +7,8 @@ Author URI: http://www.marceloag.cl
 Version: 1.2
 */
 
-@import "settings";
-@import "bower_components/foundation/scss/foundation";
+@import 'settings';
+@import 'bower_components/foundation/scss/foundation';
 
 // Or selectively include components
 // @import
@@ -47,4 +47,4 @@ Version: 1.2
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
-@import "custom";
+@import 'custom';

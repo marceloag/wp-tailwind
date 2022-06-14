@@ -20,8 +20,8 @@
     "grunt-contrib-watch": "^1.1.0",
     "grunt-sass": "^3.0.2",
     "load-grunt-tasks": "^4.0.0",
-    "node-sass": "^4.11.0",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "sass": "^1.52.3"
   },
   "bugs": {
     "url": "https://github.com/marceloag/WP-FD5-Compass/issues"
