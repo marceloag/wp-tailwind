@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <!--[if lt IE 7 ]> <html class="ie ie6 no-js lt-ie9 lt-ie8 lt-ie7" <?php language_attributes(); ?>> <![endif]-->
 <!--[if IE 7 ]>    <html class="ie ie7 no-js lt-ie9 lt-ie8" <?php language_attributes(); ?>> <![endif]-->
 <!--[if IE 8 ]>    <html class="ie ie8 no-js lt-ie9" <?php language_attributes(); ?>> <![endif]-->
@@ -88,5 +87,6 @@
 </head>
 <body>
 
-    <header>  
+    <header class="flex flex-row bg-black flex-1 h-full justify-center items-center">  
+      <span class=" text-4xl text-slate-800 ">Header</span>
     </header>
