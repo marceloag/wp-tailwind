@@ -1,3 +1,12 @@
+/*!
+Theme Name: Starter Theme Croop 2022
+Theme URI: http://www.croop.cl
+Description: Wordpress Foundation and Compass base theme.
+Author: Marcelo Aguila & Nelson Sanchez
+Author URI: http://www.marceloag.cl
+Version: 1.2
+*/
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
