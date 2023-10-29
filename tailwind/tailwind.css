@@ -22,3 +22,7 @@ Version: 1.2
 .menu ul li {
   @apply uppercase;
 }
+
+h1 {
+  @apply text-[#2D1D0C] text-4xl font-serif;
+}

@@ -18,24 +18,27 @@
 
     <section class="w-full flex flex-row gap-4 px-10">
       <div class="w-1/2 flex flex-col p-6">
-        <img src="<?php bloginfo("template_directory")?>/img/lili.jpg" alt="Liliana Ortiz">
+        <img src="<?php bloginfo("template_directory")?>/img/lili.webp" alt="Liliana Ortiz" class=" border-b-8 border-l-8 border-solid border-[#EDCACA]">
       </div>
       <div class="w-1/2 flex flex-col gap-4 p-10">
-        <h1 class="text-[#2D1D0C] text-6xl font-serif">Qué Hacemos?</h1>
+        <h1 class="text-[#2D1D0C] font-serif">Qué Hacemos?</h1>
         <hr>
         <p>
-            Cultivamos Flores y Berries en la Patagonia.
-            Vendemos nuestros productos a través de terceros (BtoB) y entregas semanales de canasta de productos regionales a elección a nuestra cartera de clientes en Punta Arenas (BtoC)
-            Somos Florería On Line  de flores frescas y deshidratadas, en temporada utilizando nuestros cultivos y con flores que traemos del Terminal de Flores en Santiago.
-            Exportamos Peonias a través de Chilfresh.
-            Asesoramos a Empresas en el Diseño, Educación y Acompañamiento en el desarrollo de áreas verdes utilizando flora nativa.
+          <ul>
+            <li>Cultivamos Flores y Berries en la Patagonia.</li>
+            <li>Vendemos nuestros productos a través de terceros (BtoB) y entregas semanales de canasta de productos regionales a elección a nuestra cartera de clientes en Punta Arenas (BtoC)</li>
+            <li>Somos Florería On Line  de flores frescas y deshidratadas, en temporada utilizando nuestros cultivos y con flores que traemos del Terminal de Flores en Santiago.
+            </li>
+            <li>Exportamos Peonias a través de Chilfresh.</li>
+            <li>Asesoramos a Empresas en el Diseño, Educación y Acompañamiento en el desarrollo de áreas verdes utilizando flora nativa.</li>
+          </ul>
         </p>
         <hr>
       </div>
     </section>
 
     <section class="bg-[#F2EEEE] my-4 p-10 bg-[url(./img/pattern.png)] bg-no-repeat bg-cover w-full flex flex-col items-center justify-center">
-      <h1  class="text-[#2D1D0C] text-6xl font-serif">Distribuidores</h1>
+      <h1  class="text-[#2D1D0C] font-serif">Distribuidores</h1>
       <ul class=" flex flex-row gap-4 items-center justify-center w-10/12 my-10">
         <li><img src="<?php bloginfo("template_directory")?>/img/lavianda.png" alt="" class="mix-blend-multiply"></li>
         <li><img src="<?php bloginfo("template_directory")?>/img/corcoran.png" alt="" class="mix-blend-multiply"></li>
@@ -46,7 +49,9 @@
 
     <section id="gallery" class="flex w-full my-10 p-10">
       <div class="grid grid-cols-5 grid-rows-5 gap-4">
-          <div class="bg-[#F2EEEE] col-span-2 row-span-5">1</div>
+          <div class="bg-[#F2EEEE] col-span-2 row-span-5">
+            <img src="<?php bloginfo("template_directory")?>/img/peonias01.webp" alt="Peonias" class="object-fit">
+          </div>
           <div class="bg-[#F2EEEE] col-span-3 row-span-2 col-start-3">2</div>
           <div class="bg-[#F2EEEE] row-span-3 col-start-3 row-start-3">3</div>
           <div class="bg-[#F2EEEE] row-span-3 col-start-4 row-start-3">4</div>
