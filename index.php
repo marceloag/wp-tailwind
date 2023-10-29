@@ -11,12 +11,12 @@
       <img src="<?php bloginfo("template_directory")?>/img/floresdeco.png" alt="separator">
     </div>
 
-    <section class="w-full flex flex-row gap-4">
-      <div class="w-1/2 flex flex-col">
-        <img src="<?php bloginfo("template_directory")?>/img/lili.png" alt="Liliana Ortiz">
+    <section class="w-full flex flex-row gap-4 px-10">
+      <div class="w-1/2 flex flex-col p-6">
+        <img src="<?php bloginfo("template_directory")?>/img/lili.jpg" alt="Liliana Ortiz">
       </div>
-      <div class="w-1/2 flex flex-col gap-4">
-        <h1 class="text-[#2D1D0C] text-6xl font-serif">Qué Hacemos?</h1>
+      <div class="w-1/2 flex flex-col gap-4 p-10">
+        <h1 class="  class="text-[#2D1D0C] text-6xl font-serif"">Qué Hacemos?</h1>
         <hr>
         <p>
             Cultivamos Flores y Berries en la Patagonia.
@@ -27,5 +27,9 @@
         </p>
         <hr>
       </div>
+    </section>
+
+    <section class="bg[#F2EEEE] my-4 py-6 px-10 bg-[(./img/pattern.png)] bg-no-repeat bg-cover">
+      <h1  class="text-[#2D1D0C] text-6xl font-serif">Distribuidores</h1>
     </section>
 <?php get_footer(); ?>
