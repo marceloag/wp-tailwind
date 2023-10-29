@@ -25,7 +25,7 @@
           <h1 class="text-[#2D1D0C] font-serif">Qué Hacemos?</h1>
           <hr>
           <p>
-            <ul class="list-item leading-6">
+            <ul class="list-disc leading-6">
               <li>Cultivamos Flores y Berries en la Patagonia.</li>
               <li>Vendemos nuestros productos a través de terceros (BtoB) y entregas semanales de canasta de productos regionales a elección a nuestra cartera de clientes en Punta Arenas (BtoC)</li>
               <li>Somos Florería On Line  de flores frescas y deshidratadas, en temporada utilizando nuestros cultivos y con flores que traemos del Terminal de Flores en Santiago.
@@ -40,8 +40,8 @@
     </section>
 
     <section class="bg-[#F2EEEE] my-4 p-10 bg-[url(./img/pattern.png)] bg-no-repeat bg-cover w-full flex flex-col items-center justify-center">
-      <h1  class="text-[#2D1D0C] font-serif">Distribuidores</h1>
-      <ul class=" flex flex-row gap-4 items-center justify-center w-10/12 my-10">
+      <h1  class="text-[#2D1D0C] font-serif my-4">Distribuidores</h1>
+      <ul class=" flex flex-row gap-8 items-center justify-center w-10/12 my-10">
         <li><img src="<?php bloginfo("template_directory")?>/img/lavianda.png" alt="" class="mix-blend-multiply"></li>
         <li><img src="<?php bloginfo("template_directory")?>/img/corcoran.png" alt="" class="mix-blend-multiply"></li>
         <li><img src="<?php bloginfo("template_directory")?>/img/lavianda.png" alt="" class="mix-blend-multiply"></li>
