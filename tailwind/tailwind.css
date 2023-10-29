@@ -13,8 +13,11 @@ Version: 1.2
 @tailwind components;
 @tailwind utilities;
 
+.menu {
+  @apply w-full;
+}
 .menu ul {
-  @apply flex flex-row gap-4 justify-center items-center;
+  @apply flex flex-row gap-4 justify-between items-center;
 }
 .menu ul li {
   @apply uppercase;
