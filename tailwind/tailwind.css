@@ -12,3 +12,10 @@ Version: 1.2
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.menu ul {
+  @apply flex flex-row gap-4 justify-center items-center;
+}
+.menu ul li {
+  @apply uppercase;
+}
