@@ -1,5 +1,6 @@
 <!-- FOOTER -->
-    <footer>
+    <footer class="bg-[#EDCACA] w-full p-20">
+      <img src="<?php bloginfo('template_directory')?>/img/logo-cultivo-patagonia.png" alt="Cultivo Patagonia" class="object-contain mix-blend-multiply">
     </footer>
 
 <?php wp_footer(); ?>

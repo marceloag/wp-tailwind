@@ -50,14 +50,12 @@
     </section>
 
     <section id="gallery" class="flex w-full my-10 p-10">
-      <div class="grid grid-cols-5 grid-rows-5 gap-4">
-          <div class="bg-[#F2EEEE] col-span-2 row-span-5">
-            <img src="<?php bloginfo("template_directory")?>/img/peonias01.webp" alt="Peonias" class="object-fit">
-          </div>
-          <div class="bg-[#F2EEEE] col-span-3 row-span-2 col-start-3"><img src="<?php bloginfo("template_directory")?>/img/frutillas.webp" alt="Peonias" class="object-fit"></div>
-          <div class="bg-[#F2EEEE] row-span-3 col-start-3 row-start-3"><img src="<?php bloginfo("template_directory")?>/img/ramo.webp" alt="Peonias" class="object-fit"></div>
-          <div class="bg-[#F2EEEE] row-span-3 col-start-4 row-start-3">4</div>
-          <div class="bg-[#F2EEEE] row-span-3 col-start-5 row-start-3">5</div>
+      <div class="grid grid-cols-4 grid-rows-2 gap-8">
+        <div class="row-span-2"><img src="<?php bloginfo("template_directory")?>/img/peonias01.webp" alt="Peonias" class="object-cover"></div>
+        <div class="col-span-3"><img src="<?php bloginfo("template_directory")?>/img/frutillas.webp" alt="Peonias" class="object-cover"></div>
+        <div class="col-start-2 row-start-2"><img src="<?php bloginfo("template_directory")?>/img/ramo.webp" alt="Peonias" class="object-cover"></div>
+        <div class="col-start-3 row-start-2"><img src="<?php bloginfo("template_directory")?>/img/ramo.webp" alt="Peonias" class="object-cover"></div>
+        <div class="col-start-4 row-start-2"><img src="<?php bloginfo("template_directory")?>/img/ramo.webp" alt="Peonias" class="object-cover"></div>
       </div>
     </section>
 
