@@ -2,7 +2,12 @@
 module.exports = {
   content: ['./*.{html,js,php}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Montserrat', 'sans-serif'],
+        serif: ['Merriweather', 'serif'],
+      },
+    },
   },
   plugins: [],
 };
