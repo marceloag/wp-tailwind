@@ -16,24 +16,26 @@
       <img src="<?php bloginfo("template_directory")?>/img/floresdeco.png" alt="separator">
     </div>
 
-    <section class="w-full flex flex-row gap-4 px-10">
-      <div class="w-1/2 flex flex-col p-6">
-        <img src="<?php bloginfo("template_directory")?>/img/lili.webp" alt="Liliana Ortiz" class=" border-b-8 border-l-8 border-solid border-[#EDCACA]">
-      </div>
-      <div class="w-1/2 flex flex-col gap-4 p-10">
-        <h1 class="text-[#2D1D0C] font-serif">Qué Hacemos?</h1>
-        <hr>
-        <p>
-          <ul>
-            <li>Cultivamos Flores y Berries en la Patagonia.</li>
-            <li>Vendemos nuestros productos a través de terceros (BtoB) y entregas semanales de canasta de productos regionales a elección a nuestra cartera de clientes en Punta Arenas (BtoC)</li>
-            <li>Somos Florería On Line  de flores frescas y deshidratadas, en temporada utilizando nuestros cultivos y con flores que traemos del Terminal de Flores en Santiago.
-            </li>
-            <li>Exportamos Peonias a través de Chilfresh.</li>
-            <li>Asesoramos a Empresas en el Diseño, Educación y Acompañamiento en el desarrollo de áreas verdes utilizando flora nativa.</li>
-          </ul>
-        </p>
-        <hr>
+    <section class="w-full flex flex-row justify-center items-center">
+      <div class="w-8/12 flex flex-row gap-4 px-10">
+        <div class="w-1/2 flex flex-col p-6">
+          <img src="<?php bloginfo("template_directory")?>/img/lili.webp" alt="Liliana Ortiz" class=" border-b-[10px] border-l-[10px] border-solid border-[#EDCACA]">
+        </div>
+        <div class="w-1/2 flex flex-col gap-4 p-10">
+          <h1 class="text-[#2D1D0C] font-serif">Qué Hacemos?</h1>
+          <hr>
+          <p>
+            <ul class="list-item leading-6">
+              <li>Cultivamos Flores y Berries en la Patagonia.</li>
+              <li>Vendemos nuestros productos a través de terceros (BtoB) y entregas semanales de canasta de productos regionales a elección a nuestra cartera de clientes en Punta Arenas (BtoC)</li>
+              <li>Somos Florería On Line  de flores frescas y deshidratadas, en temporada utilizando nuestros cultivos y con flores que traemos del Terminal de Flores en Santiago.
+              </li>
+              <li>Exportamos Peonias a través de Chilfresh.</li>
+              <li>Asesoramos a Empresas en el Diseño, Educación y Acompañamiento en el desarrollo de áreas verdes utilizando flora nativa.</li>
+            </ul>
+          </p>
+          <hr>
+        </div>
       </div>
     </section>
 
