@@ -80,7 +80,7 @@
 
 </head>
 <body>
-    <header class="flex flex-row bg-white flex-1 w-full h-40 justify-between items-center py-6 px-10 bg-url[<?php bloginfo('template_directory')?>/img/bgtexture.jpg] bg-cover">  
+    <header class="flex flex-row bg-white flex-1 w-full h-40 justify-between items-center py-6 px-10 bg-[url('<?php bloginfo('template_directory')?>/img/bgtexture.jpg'] bg-cover">  
           <img src="<?php bloginfo('template_directory')?>/img/logo-cultivo-patagonia.png" alt="Cultivo Patagonia">
           <div class="rss flex flex-row items-center justify-center">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
