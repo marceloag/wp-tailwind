@@ -29,7 +29,10 @@
       </div>
     </section>
 
-    <section class="bg[#F2EEEE] my-4 py-6 px-10 bg-[(./img/pattern.png)] bg-no-repeat bg-cover">
+    <section class="bg-[#F2EEEE] my-4 p-10 bg-[url(./img/pattern.png)] bg-no-repeat bg-cover w-full flex flex-col items-center justify-center">
       <h1  class="text-[#2D1D0C] text-6xl font-serif">Distribuidores</h1>
+      <ul class=" flex flex-row gap-2 items-center justify-center w-10/12">
+        <li>a</li>
+      </ul>
     </section>
 <?php get_footer(); ?>
