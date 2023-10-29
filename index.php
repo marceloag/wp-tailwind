@@ -54,8 +54,8 @@
           <div class="bg-[#F2EEEE] col-span-2 row-span-5">
             <img src="<?php bloginfo("template_directory")?>/img/peonias01.webp" alt="Peonias" class="object-fit">
           </div>
-          <div class="bg-[#F2EEEE] col-span-3 row-span-2 col-start-3">2</div>
-          <div class="bg-[#F2EEEE] row-span-3 col-start-3 row-start-3">3</div>
+          <div class="bg-[#F2EEEE] col-span-3 row-span-2 col-start-3"><img src="<?php bloginfo("template_directory")?>/img/frutillas.webp" alt="Peonias" class="object-fit"></div>
+          <div class="bg-[#F2EEEE] row-span-3 col-start-3 row-start-3"><img src="<?php bloginfo("template_directory")?>/img/ramo.webp" alt="Peonias" class="object-fit"></div>
           <div class="bg-[#F2EEEE] row-span-3 col-start-4 row-start-3">4</div>
           <div class="bg-[#F2EEEE] row-span-3 col-start-5 row-start-3">5</div>
       </div>
