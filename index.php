@@ -16,7 +16,7 @@
         <img src="<?php bloginfo("template_directory")?>/img/lili.jpg" alt="Liliana Ortiz">
       </div>
       <div class="w-1/2 flex flex-col gap-4 p-10">
-        <h1 class="  class="text-[#2D1D0C] text-6xl font-serif"">Qué Hacemos?</h1>
+        <h1 class="text-[#2D1D0C] text-6xl font-serif">Qué Hacemos?</h1>
         <hr>
         <p>
             Cultivamos Flores y Berries en la Patagonia.
