@@ -49,13 +49,15 @@
       </ul>
     </section>
 
-    <section id="gallery" class="flex w-9/12 self-center my-10 p-10">
-      <div class="grid grid-cols-4 grid-rows-2 gap-8">
-        <div class="row-span-2"><img src="<?php bloginfo("template_directory")?>/img/peonias01.webp" alt="Peonias" class="w-full object-cover min-h-0 h-full"></div>
-        <div class="col-span-3"><img src="<?php bloginfo("template_directory")?>/img/frutillas.webp" alt="Peonias" class="w-full object-cover min-h-0 h-full"></div>
-        <div class="col-start-2 row-start-2"><img src="<?php bloginfo("template_directory")?>/img/ramo.webp" alt="Peonias" class="w-full object-cover min-h-0 h-full"></div>
-        <div class="col-start-3 row-start-2"><img src="<?php bloginfo("template_directory")?>/img/ramo.webp" alt="Peonias" class="w-full object-cover min-h-0 h-full"></div>
-        <div class="col-start-4 row-start-2"><img src="<?php bloginfo("template_directory")?>/img/ramo.webp" alt="Peonias" class="w-full object-cover min-h-0 h-full"></div>
+    <section id="gallery" class="flex w-full flex-row items-center justify-center my-10 p-10">
+      <div class="w-9/12">
+        <div class="grid grid-cols-4 grid-rows-2 gap-8">
+          <div class="row-span-2"><img src="<?php bloginfo("template_directory")?>/img/peonias01.webp" alt="Peonias" class="w-full object-cover min-h-0 h-full"></div>
+          <div class="col-span-3"><img src="<?php bloginfo("template_directory")?>/img/frutillas.webp" alt="Peonias" class="w-full object-cover min-h-0 h-full"></div>
+          <div class="col-start-2 row-start-2"><img src="<?php bloginfo("template_directory")?>/img/ramo.webp" alt="Peonias" class="w-full object-cover min-h-0 h-full"></div>
+          <div class="col-start-3 row-start-2"><img src="<?php bloginfo("template_directory")?>/img/ramo.webp" alt="Peonias" class="w-full object-cover min-h-0 h-full"></div>
+          <div class="col-start-4 row-start-2"><img src="<?php bloginfo("template_directory")?>/img/ramo.webp" alt="Peonias" class="w-full object-cover min-h-0 h-full"></div>
+        </div>
       </div>
     </section>
 
