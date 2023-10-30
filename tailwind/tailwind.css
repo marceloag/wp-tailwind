@@ -13,13 +13,13 @@ Version: 1.2
 @tailwind components;
 @tailwind utilities;
 
-.menu {
+.menu-mainmenu-container {
   @apply w-full;
 }
-.menu ul {
+.menu-mainmenu-container ul {
   @apply flex flex-row gap-4 justify-around items-center;
 }
-.menu ul li {
+.menu-mainmenu-container ul li {
   @apply uppercase;
 }
 
