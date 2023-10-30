@@ -1,7 +1,10 @@
 <!-- FOOTER -->
     <footer class="bg-[#EDCACA] w-full p-20 justify-between flex flex-row">
       <img src="<?php bloginfo('template_directory')?>/img/logo-cultivo-patagonia.png" alt="Cultivo Patagonia" class="object-contain mix-blend-multiply">
-      <img src="<?php bloginfo('template_directory')?>/img/apoyadopor.webp" alt="Apoyado por Corfo" class="w-20">
+      <div class="w-20">
+          <img src="<?php bloginfo('template_directory')?>/img/apoyadopor.webp" alt="Apoyado por Corfo">
+      </div>
+      
     </footer>
 
 <?php wp_footer(); ?>
