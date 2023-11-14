@@ -16,6 +16,7 @@
       <img src="<?php bloginfo("template_directory")?>/img/floresdeco.png" alt="separator">
     </div>
 
+    <!-- Que hacemos -->
     <section class="w-full flex flex-row justify-center items-center">
       <div class="w-8/12 flex flex-row gap-4 px-10">
         <div class="w-1/2 flex flex-col p-6">
@@ -39,6 +40,7 @@
       </div>
     </section>
 
+    <!-- Distribuidores -->
     <section class="bg-[#F2EEEE] my-4 p-10 bg-[url(./img/pattern.png)] bg-no-repeat bg-cover w-full flex flex-col items-center justify-center">
       <h1  class="text-[#2D1D0C] font-serif my-4">Distribuidores</h1>
       <ul class=" flex flex-row gap-8 items-center justify-center w-10/12 my-10">
@@ -49,6 +51,7 @@
       </ul>
     </section>
 
+    <!-- Galería -->
     <section id="gallery" class="flex w-full flex-row items-center justify-center my-10 p-10">
       <div class="w-9/12">
         <div class="grid grid-cols-4 grid-rows-2 gap-8">
@@ -59,6 +62,11 @@
           <div class="col-start-4 row-start-2"><img src="<?php bloginfo("template_directory")?>/img/trabajadores.webp" alt="Peonias" class="w-full object-cover min-h-0 h-full"></div>
         </div>
       </div>
+    </section>
+
+    <!-- Instagram -->
+    <section class="w-10/12">
+      <?php echo do_shortcode('[instagram-feed feed=1]'); ?>
     </section>
 
 <?php get_footer(); ?>
