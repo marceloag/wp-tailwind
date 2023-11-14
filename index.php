@@ -65,8 +65,10 @@
     </section>
 
     <!-- Instagram -->
-    <section class="w-10/12 flex flex-row justify-center items-center">
-      <?php echo do_shortcode('[instagram-feed feed=1]'); ?>
+    <section class="w-full flex flex-row justify-center items-center">
+      <div class="w-10/12">
+        <?php echo do_shortcode('[instagram-feed feed=1]'); ?>
+      </div>
     </section>
 
 <?php get_footer(); ?>
