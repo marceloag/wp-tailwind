@@ -42,7 +42,12 @@
 
     <!-- Distribuidores -->
     <section class="bg-[#F2EEEE] my-4 p-10 bg-[url(./img/pattern.png)] bg-no-repeat bg-cover w-full flex flex-col items-center justify-center">
-      <h1  class="text-[#2D1D0C] font-serif my-4">Distribuidores</h1>
+      <h1  class="text-[#2D1D0C] font-serif my-4">Distribuidores Flores</h1>
+      <ul class=" flex flex-row gap-8 items-center justify-center w-10/12 my-10">
+        <li><img src="<?php bloginfo("template_directory")?>/img/lavianda.png" alt="" class="mix-blend-multiply"></li>
+      </ul>
+
+      <h1  class="text-[#2D1D0C] font-serif my-4">Distribuidores Berries</h1>
       <ul class=" flex flex-row gap-8 items-center justify-center w-10/12 my-10">
         <li><img src="<?php bloginfo("template_directory")?>/img/lavianda.png" alt="" class="mix-blend-multiply"></li>
         <li><img src="<?php bloginfo("template_directory")?>/img/corcoran.png" alt="" class="mix-blend-multiply"></li>
