@@ -2,16 +2,14 @@
 
 	  <section>
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-        <div class="row" id="interior">
-            <div class="large-12 medium-12 small-12 columns">
+        <div class="flex flex-row items-center justify-start" id="interior">
+            <div class="w-10/12 my-3">
                 <div class="titulo">
                     <h1><?php the_title();?></h1>
                 </div>
-
-                <div class="texto">
+                <div class="ml-4">
                     <?php the_content();?>
                 </div>
-
             </div>
         </div>
 			<?php endwhile; endif; ?>
