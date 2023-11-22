@@ -24,11 +24,11 @@ Version: 1.2
 }
 
 h1 {
-  @apply text-[#2D1D0C] text-4xl mx-3 font-serif;
+  @apply text-[#2D1D0C] text-4xl my-4 font-serif;
 }
 h3 {
-  @apply text-[#2D1D0C] text-3xl mx-2 font-serif;
+  @apply text-[#2D1D0C] text-3xl my-3 font-serif;
 }
 h2 {
-  @apply text-[#2D1D0C] text-2xl mx-1 font-serif;
+  @apply text-[#2D1D0C] text-2xl my-2 font-serif;
 }

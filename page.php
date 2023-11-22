@@ -2,8 +2,8 @@
 
 	  <section>
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-        <div class="flex flex-row items-center justify-center" id="interior">
-            <div class="w-10/12">
+        <div class="flex flex-row items-center justify-center p-4" id="interior">
+            <div class="w-11/12 md:w-9/12">
                 <div class="titulo mx-3">
                     <h1><?php the_title();?></h1>
                 </div>
