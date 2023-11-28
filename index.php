@@ -72,7 +72,7 @@
     <!-- Instagram -->
     <section class="w-full flex flex-row justify-center items-center">
       <div class="w-10/12">
-        <?php echo do_shortcode('[instagram-feed feed=1]'); ?>
+        <?php echo do_shortcode('[instagram-feed feed=2]'); ?>
       </div>
     </section>
 
