@@ -80,8 +80,15 @@
 
 </head>
 <body>
-    <header class="flex flex-row bg-white flex-1 w-full h-40 justify-between items-center py-6 px-10 bg-[url('./img/bgtexture.jpg')] bg-cover">  
+    <div id="whatsapp" class="fixed bottom-10 right-10">
+      <a href="https://api.whatsapp.com/send?phone=56993312777&text=Hola%20Cultivo%20Patagonia%20necesito%20información%20sobre%20sus%20productos" target="_blank">
+        <img src="<?php bloginfo('template_directory')?>/img/whatsapp.svg" alt="Whatsapp" class="object-contain">
+      </a>
+    </div>
+    <header class="flex flex-row bg-white flex-1 w-full h-40 justify-between items-center py-6 px-10 bg-[url('./img/bgtexture.jpg')] bg-cover">
+      <a href="<?php bloginfo("url"); ?>">
           <img src="<?php bloginfo('template_directory')?>/img/logo-cultivo-patagonia.png" alt="Cultivo Patagonia" class="object-contain">
+      </a>  
           <div class="rss flex flex-row items-center justify-center">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M16 28.3333C22.8115 28.3333 28.3334 22.8115 28.3334 16C28.3334 9.18832 22.8115 3.66666 16 3.66666C9.18835 3.66666 3.66669 9.18832 3.66669 16C3.66669 22.8115 9.18835 28.3333 16 28.3333ZM16 28.3333V18M16 18V13.3333C16 11.4923 17.4924 9.99999 19.3334 9.99999H21M16 18H12.3334M16 18H19.6667" stroke="black" stroke-width="2" stroke-linecap="round"/>
